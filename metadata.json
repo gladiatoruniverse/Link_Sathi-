@@ -1,0 +1,6 @@
+{
+  "name": "LinkSaathi",
+  "description": "Your Personal Digital Safety Assistant for identifying potential scams in suspicious URLs, SMS, and WhatsApp messages on-device.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

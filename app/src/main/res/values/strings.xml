@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">LinkSaathi</string>
+    <string name="app_tagline">Your Personal Digital Safety Assistant</string>
+    <string name="nav_home">Home</string>
+    <string name="nav_url_checker">Check Link</string>
+    <string name="nav_message_analyzer">Analyze Text</string>
+    <string name="nav_history">History</string>
+    <string name="nav_safety">Safety</string>
+    <string name="nav_settings">Settings</string>
+    <string name="action_check_link">Check a Link</string>
+    <string name="action_analyze_message">Analyze a Message</string>
+    <string name="action_paste_clipboard">Paste from Clipboard</string>
+    <string name="action_clear_input">Clear</string>
+    <string name="action_check_another">Check Another</string>
+    <string name="action_save_to_history">Save to History</string>
+    <string name="action_saved_in_history">Saved in History (PII Redacted)</string>
+    <string name="action_share_warning">Share Safety Warning</string>
+    <string name="risk_low">Low Risk</string>
+    <string name="risk_medium">Medium Risk</string>
+    <string name="risk_high">High Risk</string>
+    <string name="heuristic_disclaimer_title">On-Device Heuristic Analysis Notice</string>
+    <string name="heuristic_disclaimer_body">This assessment uses local rule-based heuristics on your device. An HTTPS padlock or a Low Risk result does NOT guarantee a website or sender is legitimate. Always verify sensitive requests through official channels.</string>
+</resources>
