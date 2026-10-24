@@ -7,7 +7,7 @@
 ## ✨ Key Features
 
 ### 1. Home Dashboard
-- **LinkSaathi Shield Branding** with Deep Navy & Electric Teal cybersecurity posture.
+- **Official LinkSaathi Brand Logo** with Deep Navy & Electric Teal cybersecurity posture.
 - Prominent **Check a Link** and **Analyze a Message** action cards.
 - Interactive **Digital Safety Tip** carousel with actionable security habits.
 - **Recent Scan History** with instant inspection of saved assessments.
@@ -59,14 +59,31 @@ Context-aware local rule engine for SMS, WhatsApp, and email text:
 
 ---
 
-## 🛠️ Running & Testing the Project
+## 🛠️ Local Build & Testing
 
-### Build & Compile
+### Build Debug APK Locally
 ```bash
-gradle assembleDebug
+gradle :app:assembleDebug
+```
+The compiled debug APK is written to:
+```text
+app/build/outputs/apk/debug/app-debug.apk
 ```
 
-### Run Unit & Robolectric End-to-End Tests
+### Run Unit & Robolectric Tests
 ```bash
 gradle :app:testDebugUnitTest
 ```
+
+---
+
+## 🚀 Automated GitHub Actions APK Build
+
+This repository includes `.github/workflows/build-apk.yml` to build the debug APK automatically on GitHub Actions without requiring any signing secrets.
+
+### How to Run the Workflow and Download the APK
+1. Push or sync the repository to GitHub.
+2. Open your repository on GitHub and click the **Actions** tab.
+3. Select **Build Android Debug APK** in the left sidebar.
+4. Click **Run workflow** → **Run workflow** (or push a commit to `main`/`master`).
+5. Wait for the **Assemble LinkSaathi Debug APK** job to finish, then scroll to the **Artifacts** section at the bottom of the workflow summary page and download **`LinkSaathi-debug-apk`** (containing `app-debug.apk`).
